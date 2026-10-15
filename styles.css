@@ -1,12 +1,40 @@
 /* ========================================
    Float Practice
 ======================================== */
+.cats-right {
+  float: right;
+  background-color: rgba(128, 128, 128, 0.419);
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
 
+.cats-left {
+  float: left;
+  background-color: rgba(128, 128, 128, 0.419);
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
 
+.cats-right figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  color: blue;
+}
 
+.cats-left figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  color: blueviolet;
+}
 
-
-
+img {
+max-width: 100%;
+height: auto;
+}
 
 
 
